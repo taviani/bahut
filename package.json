@@ -1,11 +1,16 @@
 {
   "name": "bahut",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Best bahut in the world",
+  "author": "Ed_Lac",
+  "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
