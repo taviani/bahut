@@ -29,10 +29,16 @@ a.active {
 .annee {
   width: 3em;
 }
-.form {
-  padding: 5px 0;
+.filters {
+  padding-bottom: 20px;;
 }
-
+.form {
+  padding: 5px;
+  display: inline-flex;
+}
+.form button {
+  margin-left: 5px;;
+}
 table {
   border-collapse: collapse;
   margin: 0;
