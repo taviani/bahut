@@ -1,7 +1,6 @@
 const express = require('express');
-const app = express()
 const serveStatic = require('serve-static');
-app = express();
+const app = express();
 app.use(serveStatic(__dirname + "/dist"));
 const port = process.env.PORT || 5000;
 app.listen(port);
