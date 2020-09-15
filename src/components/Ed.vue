@@ -108,7 +108,7 @@ export default {
         return condition;
       }
     },
-    queryForKeywords: function (event) {
+    queryForKeywords: function () {
       this.$nextTick(() => {
         if (this.annee.length === 0) {
           this.anneeScolaire = '2019-2020';
